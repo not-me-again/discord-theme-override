@@ -1,0 +1,78 @@
+﻿  main.cpp
+D:\Users\t y\source\repos\discord theme override\kdmapper\printa\printa\printa.hpp(23,2): warning C4091: 'typedef ': ignored on left of 'printa_e' when no variable is declared
+D:\Users\t y\source\repos\discord theme override\kdmapper\printa\printa\printa.hpp(58,33): warning C4101: 'e': unreferenced local variable
+D:\Users\t y\source\repos\discord theme override\kdmapper\main.cpp(210,36): warning C4456: declaration of 'file_contents' hides previous local declaration
+D:\Users\t y\source\repos\discord theme override\kdmapper\main.cpp(93,14): message : see declaration of 'file_contents'
+D:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31721\include\xstring(2806,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+D:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31721\include\xstring(2670): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31721\include\xstring(2670): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\Users\t y\source\repos\discord theme override\kdmapper\logging.h(17): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+D:\Users\t y\source\repos\discord theme override\kdmapper\logging.h(17): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+D:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31721\include\xstring(2806,53): warning C4244: 'argument': conversion from 'const wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+D:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31721\include\xstring(2670): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<const wchar_t*>(_Iter,const _Iter)' being compiled
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+D:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.34.31721\include\xstring(2670): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<const wchar_t*>(_Iter,const _Iter)' being compiled
+          with
+          [
+              _Iter=const wchar_t *
+          ]
+D:\Users\t y\source\repos\discord theme override\kdmapper\main.cpp(39): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+D:\Users\t y\source\repos\discord theme override\kdmapper\main.cpp(39): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  Generating code
+  3 of 1956 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    31 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  kdmapper.vcxproj -> D:\Users\t y\source\repos\discord theme override\x64\Release\dto.exe
+                         Ultimate Packer for eXecutables
+                            Copyright (C) 1996 - 2020
+  UPX 3.96w       Markus Oberhumer, Laszlo Molnar & John Reiser   Jan 23rd 2020
+  
+          File size         Ratio      Format      Name
+     --------------------   ------   -----------   -----------
+      190976 ->     79872   41.82%    win64/pe     dto_compressed.exe
+  
+  Packed 1 file.

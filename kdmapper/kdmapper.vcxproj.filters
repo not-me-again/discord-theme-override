@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="printa\printa\fmt\format.cc">
+      <Filter>printa\fmt</Filter>
+    </ClCompile>
+    <ClCompile Include="printa\printa\fmt\os.cc">
+      <Filter>printa\fmt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.hpp" />
+    <ClInclude Include="printa\printa\fmt\chrono.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\printa\fmt\color.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\printa\fmt\compile.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\printa\fmt\core.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\printa\fmt\format.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\printa\fmt\format-inl.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\printa\fmt\locale.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\printa\fmt\os.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\printa\fmt\ostream.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\printa\fmt\posix.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\printa\fmt\printf.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\printa\fmt\ranges.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\printa\macros.hpp">
+      <Filter>printa</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\printa\printa.hpp">
+      <Filter>printa</Filter>
+    </ClInclude>
+    <ClInclude Include="logging.h" />
+    <ClInclude Include="printa\singleton.hpp">
+      <Filter>printa</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="printa">
+      <UniqueIdentifier>{7158cca6-e8f2-48b7-ac6a-b7c8eab9db65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="printa\fmt">
+      <UniqueIdentifier>{e7be9121-d321-4aeb-8c0a-aca726126e20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
